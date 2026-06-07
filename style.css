@@ -184,6 +184,15 @@ body {
     .btn-primary, .btn-secondary {
         text-align: center;
         width: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%; /* O puedes usar max-width si no quieres que ocupe todo el ancho */
+    max-width: 320px; /* Evita que el botón se estire demasiado en pantallas grandes */
+    padding: 14px 28px; /* Ajusta el espacio interno para que respire el texto */
+    box-sizing: border-box; /* Crucial para que el padding no rompa el ancho total */
+}
     }
 }
 
