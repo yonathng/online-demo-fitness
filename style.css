@@ -183,17 +183,7 @@ body {
     }
     .btn-primary, .btn-secondary {
         text-align: center;
-        width: 100%;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    width: 90%; /* Deja un 10% libre para que no toque los bordes de la pantalla */
-    max-width: 320px; /* Evita que el botón se deforme o se estire demasiado */
-    padding: 14px 24px; /* Le da una altura interna elegante y cómoda para tocar con el dedo */
-    box-sizing: border-box; /* Evita que el padding rompa las dimensiones del botón */
-    margin: 10px auto; /* Centra el botón automáticamente si su contenedor usa flexbox/block */
-    text-decoration: none; /* Quita la línea de enlace azul genérica */
+        width: 90%;
 }
 
 /* SECCIÓN BENEFICIOS */
